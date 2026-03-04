@@ -1,0 +1,7 @@
+// ABSEN <SHUBUH></SHUBUH>
+{
+  /* <YEEEAYYY></YEEEAYYY>❤️💕❤️ */
+}
+
+// ABSEN DHUHUR
+// YUHUUU 👍👍👍
