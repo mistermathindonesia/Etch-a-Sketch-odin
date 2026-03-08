@@ -1,16 +1,12 @@
 const container = document.querySelector(".container");
-
-for (let i = 0; i < 256; i++) {
+const gridSize = 16;
+const containerSize = 960;
+const squareSize =containerSize/gridSize
+for (let i = 0; i < gridSize ** 2; i++) {
   const square = document.createElement("div");
-  square.style.width = "60px";
-  square.style.height = "60px";
-  square.style.backgroundColor = "black";
-  container.appendChild(square);
+  square.style.background = "black";
+  square.style.width = `${squareSize}px`
+  square.style.height = `${squareSize}px`
 
-  square.addEventListener("mouseover", () => {
-    square.style.backgroundColor = "red";
-  });
-  // square.addEventListener("mouseout", () => {
-  //   square.style.backgroundColor = "black";
-  // });
+  container.appendChild(square);
 }
